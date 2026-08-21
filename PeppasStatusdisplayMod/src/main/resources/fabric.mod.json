@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "statusdisplay",
+  "version": "1.0.0",
+  "name": "Status Display",
+  "description": "左上角显示状态",
+  "authors": ["YourName"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.statusdisplay.StatusDisplayMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
